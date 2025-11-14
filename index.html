@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Redirecting…</title>
+
+  <!-- Immediate meta redirect -->
+  <meta http-equiv="refresh" content="0;url=https://tripweb.page.gd">
+
+  <script>
+    // JS redirect (preferred, replaces history so back-button doesn't keep you here)
+    (function(){
+      try {
+        window.location.replace("https://tripweb.page.gd");
+      } catch(e) {
+        window.location.href = "https://tripweb.page.gd";
+      }
+    })();
+  </script>
+
+  <style>
+    /* simple fallback page style */
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:#1e1e1e;color:#fff;display:flex;align-items:center;justify-content:center}
+    .box{max-width:720px;padding:24px;text-align:center}
+    a{color:#ffcc00;text-decoration:none;font-weight:600}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Redirecting to Tripweb…</h1>
+    <p>If you are not redirected automatically, <a href="https://tripweb.page.gd">click here</a>.</p>
+  </div>
+</body>
+</html>
